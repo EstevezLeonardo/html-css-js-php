@@ -19,8 +19,8 @@
 	background: linear-gradient(to bottom left, cyan , palegoldenrod );
 	height:160px;
 	text-align:center;
-	padding-top:60px;
-	padding-bottom:60px;	
+	padding-top:120px;
+	padding-bottom:120px;	
 	}
   
    #segundo-container{
@@ -29,8 +29,8 @@
 	font-weight:bold;
 	font-size:30px;
 	text-align:center;
-	height:100px;
-	padding-top:60px;
+	height:160px;
+	padding-top:120px;
 	padding-bottom:40px;
 	}
 	
