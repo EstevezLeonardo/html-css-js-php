@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+    <meta charset="utf-8">
+	<title> Ap CSS</title>   <!--titulo da pagina-->
+	<style>
+    @import url("estilzando.css");
+	</style>
+	</head>  
+    <body>
+	
+	<h1 id="primeiro-container">Titulo principal</h1>  
+	<p id="segundo-container">Primeiro paragrafo!</p>
+	<hr/>
+	
+	<h1 id="terceiro-container">Listas e Tabelas</h1>                <!--listas e tabelas-->
+<strong>lista ordenada </strong>
+<ol> 	
+    <li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ol>
+<strong>Tabela</strong>
+<Table width="60%" border="5"> 
+    <thead>
+	<tr>
+	    <th>Itens</th>
+	    <th>Quantidade</th>
+        <th>total</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	    <td>item 1</td>
+		<td>3</td>
+		<td>R$30</td>
+	</tr>
+	<tr>
+	    <td>item 2</td>
+		<td>4</td>
+		<td>R$25</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+	    <th>Total final</th>
+		<th>7</th>	
+		<th>R$55</th>
+	</tr>
+	</tfoot>	
+</table>
+<hr/>
+
+<h2>Formularios</h2>                        
+<form action-"/pagina-processa-dados-do-form" method-"post">                         <!--implementação de formularios-->
+    <fieldset>
+	    <legend>Dados Gerais</legend>
+		<label for="nome">Nome:</label>
+		<input type="text" minlength="3" name="nome" required>
+		 
+	    <label for="data_nascimento">Data de Nascimento:</label>
+		<input type="date" name="data_nascimento" required>
+		 
+		<label for="cpf">CPF:</label>
+		<input type="cpf" minlength="11" id="cpf" required>
+		
+		<label for="email">Email: </label>
+		<input type="email" name="email"  required>
+		
+		<label for="tel">Telefone: </label>
+		<input type="tel" minlength="9" name="telefone"  required>
+		
+	</fieldset>
+    <fieldset>
+	    <legend>Endereço</legend>
+		 
+		<label for="tipo_endereço">Tipo:</label>           <!--seletor de opçoes-->
+		<select id="tipo_endereço">
+		    <option value="">Selecione</option>
+			<option value="">Rua</option>
+			<option value="">Estrada</option>
+			<option value="">Rodovia</option>
+			<option value="">Outros</option>
+			
+	    </select>
+		<label for="logradouro_endereco">Logradouro:</label>
+		<input type="text" name="logradouro_endereco" />
+		<label for="numero_endereco">Numero:</label>
+		<input type="text" name="numero_endereco" />
+		<label for="complemento_endereco">Complemento:</label>
+		<input type="text" name="complemento_endereco" />
+	</fieldset>	
+	
+	<fieldset>
+	    <legend>Fale Conosco</legend>
+		
+		<label for"msg">Mensagem:</label>
+		<textarea  name="msg" cols="30" rows="4"></textarea>            <!--cols=limite de caracteres e rows=limite de linhas-->
+	</fieldset>
+
+	<fieldset>
+	    <button type="submit">Enviar sua mensagem</button>
+		<button type="reset">Limpar o formulario</button>
+	</fieldset>
+	
+	</body
+</html> 
