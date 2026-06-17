@@ -1,0 +1,64 @@
+  @font-face {
+  font-family: "Aclonica";
+  src: url("Aclonica-Regular.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal
+  }
+
+  @font-face {
+  font-family: "Agu-Display";
+  src: url("AguDisplay-Regular-VariableFont_MORF.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  }
+
+  
+  #primeiro-container{
+	font-family:Agu-Display;
+	font-size:80px;
+	background: linear-gradient(to bottom left, cyan , palegoldenrod );
+	height:160px;
+	text-align:center;
+	padding-top:120px;
+	padding-bottom:120px;	
+	}
+  
+   #segundo-container{
+	font-family:Aclonica;
+	background: linear-gradient(to bottom left, cyan , palegoldenrod );
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+	height:160px;
+	padding-top:120px;
+	padding-bottom:40px;
+	}
+	
+	#terceiro-container{
+	font-family:Agu-Display;
+	background: linear-gradient(to bottom left, cyan , palegoldenrod );
+	text-align:center;
+	}
+	
+	#quarto-container{
+	font-family:Agu-Display;
+	font-size:80px;
+	}
+	
+	table{background: linear-gradient(to bottom right, blue, pink);;
+	border-color:lightsalmon;
+	}
+	tr{font-weight:bold;
+	}
+	ol li{background:lightseagreen;
+	padding:10px;
+	display:inline;
+	font-family:Agu-Display;
+	}
+	legend  {font-weight:bold;
+	font-family:Aclonica;
+	}
+	label  {font-weight:bold;
+	font-family:Aclonica;
+	}
+	
